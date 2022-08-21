@@ -9,16 +9,16 @@ namespace GenericsTestProblems
             Console.WriteLine("Welcome To Generics Test Problems");
 
             Console.WriteLine("Enter First Number");
-            double a = Convert.ToDouble(Console.ReadLine());
+            string a = Convert.ToString(Console.ReadLine());
 
             Console.WriteLine("Enter Second Number");
-            double b = Convert.ToDouble(Console.ReadLine());
+            string b = Convert.ToString(Console.ReadLine());
 
             Console.WriteLine("Enter Third Number");
-            double c = Convert.ToDouble(Console.ReadLine()); ;
+            string c = Convert.ToString(Console.ReadLine());
 
-            Console.WriteLine("\nMaximum Of 3 Float");
-            double output = MaxFloat.MaximumFloatNumber(a, b, c);
+            Console.WriteLine("\nMaximum Of 3 String");
+            string output = MaxString.MaximumFloatNumber(a, b, c);
             Console.WriteLine(output);
         }
     }

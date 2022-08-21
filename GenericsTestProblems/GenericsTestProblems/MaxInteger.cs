@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace GenericsTestProblems
 {
-    class  MaxFloat
+    class MaxString
     {
-        public static double MaximumFloatNumber(double firstValue, double secondValue, double thirdValue)
+        public static string MaximumFloatNumber(string firstValue, string secondValue, string thirdValue)
         {
             if (firstValue.CompareTo(secondValue) > 0 && firstValue.CompareTo(thirdValue) > 0 ||
                firstValue.CompareTo(secondValue) >= 0 && firstValue.CompareTo(thirdValue) > 0 ||
